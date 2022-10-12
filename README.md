@@ -1,9 +1,9 @@
-﻿# FS1000-IndividualFinalProject-MP
+﻿# FS1000-IndividualFinalProject-MP <br><br>
 
 **Figma Link**
-https://www.figma.com/file/DUpnTZnlE87vrUuJbc8NuD/Michael-Persaud---FS1000-Individual-Project?node-id=0%3A1
+https://www.figma.com/file/DUpnTZnlE87vrUuJbc8NuD/Michael-Persaud---FS1000-Individual-Project?node-id=0%3A1 <br><br>
 
-**User Stories**
+**User Stories** <br>
 As a **Driver**, I want to apply directly to the organizers so I can be sure my application wasn't lost or forgotten about. <br>
 As a **Driver**, I want to be able to see how many of my friends are approved drivers and are attending the event so I can have a better idea of who I might see if I attend. <br>
 As a **Driver**, I want to be able to communicate as many details as possible about my experience and vehicle so the organizers can make an informed decision about approving me. <br>
