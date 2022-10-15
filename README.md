@@ -1,6 +1,6 @@
 ﻿# FS1000-IndividualFinalProject-MP <br><br>
 
-**Figma Link** <br>
+**UX Design** <br>
 https://www.figma.com/file/DUpnTZnlE87vrUuJbc8NuD/Michael-Persaud---FS1000-Individual-Project?node-id=0%3A1 <br><br>
 
 **User Stories** <br>
