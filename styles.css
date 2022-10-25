@@ -1,7 +1,7 @@
 /* navbar styles */
 
 .navbar {
-    /* margin: 0; */
+    margin: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,9 @@
 /* text styles */
 
 body{
+    margin: 0;
     font-family: Jura;
+    background-image: url(img/react.jpg);
 }
 h1 {
     color: red;
@@ -39,6 +41,62 @@ h1 {
 a {
     color: red;
     font-weight: bold;
+}
+
+/* content styles */
+.homepage {
+    display: flex;
+    justify-content: space-between;   
+}
+
+/* welcome styles */
+.welcome {
+    margin-top: 9%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.welcome h1 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+
+.welcome p {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.5em;
+    
+}
+
+/* approved styles */
+.approved {
+    margin-top: 7%;
+    margin-right: 10%;
+}
+.approved h1 {
+    color: white;
+    text-align: center;
+}
+
+/* grid styles */
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows repeat:(4, 1fr);
+    grid-gap: 0.5rem;
+}
+
+.grid img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.grid img:hover {
+    opacity: 50%;
 }
 
 /* footer styles */
