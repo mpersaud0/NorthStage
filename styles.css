@@ -84,7 +84,7 @@ a {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows repeat:(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: 0.5rem;
 }
 
@@ -117,4 +117,221 @@ a {
     text-decoration :none;
     display: block;
     padding: 1em;
+}
+
+/* tablet css rules */
+
+@media screen and (max-width: 1000px) {
+
+    body{
+        margin: 0;
+        font-family: Jura;
+        background-image: url(img/reactmobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    /* mobile navbar */
+
+    .navbar {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        list-style: none;
+        background-color: #d9d9d9;
+        padding-bottom: 7%;
+    }
+      
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .navbar a {
+        text-decoration: none;
+        display: block;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 2em;
+    }
+      
+    .navbar a:hover {
+        background: rgb(220, 220, 220);
+    }
+
+    .logo {
+        align-self: center;
+        font-size: 5em;
+      }
+
+    /* mobile body content */
+
+        /* content styles */
+    .homepage {
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    }
+
+        /* welcome styles */
+    .welcome {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .welcome h1 {
+        color: white;
+        text-align: center;
+        font-size: 5em;
+    }
+
+    .welcome p {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 1.3em;
+        text-align: center;
+            
+    }
+
+        /* approved styles */
+    .approved {
+        margin-top: 7%;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-bottom: 25%;
+    }
+    .approved h1 {
+        color: white;
+        text-align: center;
+    }
+
+    /* grid styles */
+    .grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 0.5rem;
+    }
+
+    .grid img {
+        width: 125px;
+        height: 125px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* footer styles */
+
+    .footer {
+        font-size: 2em;
+    } 
+}
+
+/* mobile css rules */
+@media screen and (max-width: 700px) {
+
+    /* mobile navbar */
+
+    .navbar {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        background-color: #d9d9d9;
+        padding-bottom: 7%;
+        width: 100%;
+    }
+      
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .navbar a {
+        text-decoration: none;
+        display: block;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 1.2em;
+    }
+      
+    .navbar a:hover {
+        background: rgb(220, 220, 220);
+    }
+
+    .logo {
+        align-self: center;
+        font-size: 2em;
+      }
+
+    /* mobile body content */
+
+        /* content styles */
+    .homepage {
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    }
+
+        /* welcome styles */
+    .welcome {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .welcome h1 {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .welcome p {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 1em;
+        text-align: center;
+            
+    }
+
+        /* approved styles */
+    .approved {
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-bottom: 25%;
+    }
+    .approved h1 {
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    /* grid styles */
+    .grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 0.5rem;
+    }
+
+    .grid img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* footer styles */
+
+    .footer {
+        font-size: 1em;
+    } 
 }
