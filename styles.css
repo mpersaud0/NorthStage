@@ -11,6 +11,7 @@
   
 .nav-items {
     display: flex;
+    white-space: nowrap;
 }
   
 .navbar a {
@@ -27,6 +28,10 @@
     /* margin: 0 0 0 0.45em; */
     align-self: left;
   }
+
+.logo img {
+    max-width: 15%;
+}
 
 /* text styles */
 
@@ -133,7 +138,7 @@ a {
         background-position: center;
     }
 
-    /* mobile navbar */
+    /* tablet navbar */
 
     .navbar {
         margin: 0px;
@@ -144,6 +149,7 @@ a {
         list-style: none;
         background-color: #d9d9d9;
         padding-bottom: 7%;
+        max-width: 100%;
     }
       
     .nav-items {
@@ -164,23 +170,33 @@ a {
     }
 
     .logo {
-        align-self: center;
-        font-size: 5em;
+        text-align: center;
+        max-width: 100%;
       }
 
-    /* mobile body content */
+    .logo h1 {
+        text-align: center;
+      }
+
+    .logo img {
+        max-width: 60%;
+    }
+
+    /* tablet body content */
 
         /* content styles */
     .homepage {
         display: flex;
         justify-content: center;
-        flex-direction: column; 
+        flex-direction: column;
+        width: 100%;
     }
 
         /* welcome styles */
     .welcome {
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 15%;
+        margin-right: 15%;
+        align-items: center;
     }
 
     .welcome h1 {
@@ -219,8 +235,8 @@ a {
     }
 
     .grid img {
-        width: 125px;
-        height: 125px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         object-position: center;
     }
@@ -246,7 +262,8 @@ a {
         list-style: none;
         background-color: #d9d9d9;
         padding-bottom: 7%;
-        width: 100%;
+        padding-left: 0%;
+        
     }
       
     .nav-items {
@@ -268,8 +285,14 @@ a {
 
     .logo {
         align-self: center;
-        font-size: 2em;
+        text-align: center;
+        margin: 0px;
+        margin-top: 5%;
       }
+    
+    .logo img {
+        max-width: 60%;
+    }
 
     /* mobile body content */
 
@@ -278,6 +301,7 @@ a {
         display: flex;
         justify-content: center;
         flex-direction: column; 
+        align-content: center;
     }
 
         /* welcome styles */
@@ -323,8 +347,8 @@ a {
     }
 
     .grid img {
-        width: 75px;
-        height: 75px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         object-position: center;
     }
